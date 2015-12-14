@@ -4,7 +4,7 @@
  * (c) Spryker Systems GmbH copyright protected
  */
 
-namespace SprykerFeature\Client\Storage\Service;
+namespace SprykerFeature\Client\Storage;
 
 interface StorageClientInterface
 {

@@ -4,15 +4,15 @@
  * (c) Spryker Systems GmbH copyright protected
  */
 
-namespace SprykerFeature\Client\Storage\Service;
+namespace SprykerFeature\Client\Storage;
 
-use SprykerFeature\Client\Storage\Service\Redis\Service;
+use SprykerFeature\Client\Storage\Redis\Service;
 use Predis\Client;
-use SprykerEngine\Client\Kernel\Service\AbstractServiceDependencyContainer;
+use SprykerEngine\Client\Kernel\AbstractDependencyContainer;
 use SprykerFeature\Shared\Library\Config;
 use SprykerFeature\Shared\Application\ApplicationConstants;
 
-class StorageDependencyContainer extends AbstractServiceDependencyContainer
+class StorageDependencyContainer extends AbstractDependencyContainer
 {
 
     /**
