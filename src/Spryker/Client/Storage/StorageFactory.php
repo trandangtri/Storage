@@ -12,7 +12,7 @@ use Spryker\Client\Kernel\AbstractFactory;
 use Spryker\Shared\Library\Config;
 use Spryker\Shared\Application\ApplicationConstants;
 
-class StorageDependencyContainer extends AbstractFactory
+class StorageFactory extends AbstractFactory
 {
 
     /**
